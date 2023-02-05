@@ -97,6 +97,10 @@ a:hover {
   background-color: #dadfea;
 }
 
+.bg-alt2 {
+  background-color: #eef0f4;
+}
+
 .recipe-spec {
   padding-block: 1.6vw;
 }
