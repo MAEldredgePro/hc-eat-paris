@@ -1,7 +1,24 @@
 @use "vars" as *;
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: darkblue;
 }
 
 .navbar {
@@ -39,6 +56,9 @@ body {
     margin-top: -6px;
 }
 
-nav {
+.nav-links {
     display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-weight: normal;
 }
