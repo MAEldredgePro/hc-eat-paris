@@ -27,7 +27,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .2vw 5vw;
+    padding: $default-padding;
 }
 
 .logo {
@@ -60,5 +60,57 @@ a:hover {
     display: flex;
     width: 40%;
     justify-content: space-between;
+    font-weight: normal;
+}
+
+.splash {
+    background-image: url("/images/full-table.jpg");
+    background-size: cover;
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#splash-stwor {
+    background-image: url("/images/stwor.jpg");
+}
+
+#splash-hotw {
+    background-image: url("/images/hotw.jpg");
+    background-position-y: 40%;
+}
+
+.splash-text {
+    background-color: white;
+    font-size: 2vw;
+    padding: 1vw 1.4vw;
+    margin: 3vw;
+}
+
+.content {
+    padding: $default-padding;
+}
+
+.bg-reg {
+    background-color: $bg-reg-color;
+}
+
+.bg-alt {
+    background-color: $bg-alt-color;
+}
+
+.recipe-spec {
+    padding-block: 1.6vw;
+}
+
+.rs-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rs-value {
     font-weight: normal;
 }
