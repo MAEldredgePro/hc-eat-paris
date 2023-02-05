@@ -1,3 +1,40 @@
 body {
-    background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar {
+  background-color: #f1a536;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2vw 5vw;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+.logo-name img {
+  height: 50px;
+  margin: 0px -3px 5px -13px;
+}
+.logo-name .logo-name-text {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.logo-tagline {
+  font-weight: bold;
+  margin-top: -6px;
+}
+
+nav {
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
