@@ -1,6 +1,7 @@
 @use "vars" as *;
 
 body {
+    background-color: royalblue;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -90,8 +91,17 @@ a:hover {
     margin: 3vw;
 }
 
-.content {
-    padding: 0 $default-clearance;
+.content-slice {
+    padding: calc(0.6 * $default-clearance) $default-clearance;
+}
+
+.content-slice-heading {
+    font-weight: bold;
+}
+
+.content-slice-text {
+    margin-top: $cst-margin-top;
+    font-size: $content-slice-text-font-size;
 }
 
 .bg-reg {
@@ -104,6 +114,16 @@ a:hover {
 
 .bg-alt2 {
     background-color: $bg-alt2-color;
+}
+
+.pic-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cap {
+    font-size: $cap-font-size;
+    font-weight: $cap-font-weight;
 }
 
 .recipe-spec {
