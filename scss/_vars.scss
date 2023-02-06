@@ -1,5 +1,11 @@
-$default-padding: 0 5vw;
 $navbar-bgcolor: #f1a536;
 $bg-reg-color: #fff;
 $bg-alt-color: #dadfea;
 $bg-alt2-color: #eef0f4;
+$star-color: #a63223;
+$save-recipe-btn-bg-color: #a63223;
+$save-recipe-btn-fg-color: #fff;
+
+$default-clearance: 5vw;
+$recipe-pitch-margin-top: calc(0.5 * $default-clearance);
+$recipe-pitch-padding: calc(0.5 * $default-clearance) calc(2 * $default-clearance);
