@@ -22,6 +22,18 @@ a:hover {
   color: darkblue;
 }
 
+.bg-reg {
+  background-color: white;
+}
+
+.bg-alt {
+  background-color: #dadfea;
+}
+
+.bg-alt2 {
+  background-color: #eef0f4;
+}
+
 .navbar {
   background-color: #f1a536;
   display: flex;
@@ -98,34 +110,39 @@ a:hover {
 }
 
 .content-slice-heading {
-  font-weight: bold;
+  font-size: 3vw;
 }
 
 .content-slice-text {
-  margin-top: 1.61vw;
-  font-size: 1.85vw;
-}
-
-.bg-reg {
-  background-color: white;
-}
-
-.bg-alt {
-  background-color: #dadfea;
-}
-
-.bg-alt2 {
-  background-color: #eef0f4;
+  margin-top: 1.645vw;
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 13px;
 }
 
 .pic-row {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
+}
+
+.pic-n-cap {
+  text-align: center;
+}
+
+.pic-3up {
+  width: 26vw;
+}
+.pic-3up img {
+  width: 100%;
+  height: 20vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .cap {
-  font-size: 1.5vw;
-  font-weight: bold;
+  font-size: 1.65vw;
+  font-weight: normal;
 }
 
 .recipe-spec {

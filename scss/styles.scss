@@ -24,6 +24,18 @@ a:hover {
     color: darkblue;
 }
 
+.bg-reg {
+    background-color: $bg-color-reg;
+}
+
+.bg-alt {
+    background-color: $bg-color-alt;
+}
+
+.bg-alt2 {
+    background-color: $bg-color-alt2;
+}
+
 .navbar {
     background-color: $bg-color-navbar;
     display: flex;
@@ -104,30 +116,49 @@ a:hover {
 }
 
 .content-slice-heading {
-    font-weight: bold;
+    font-size: $content-slice-heading-font-size;
 }
 
 .content-slice-text {
     margin-top: $cst-margin-top;
     font-size: $content-slice-text-font-size;
-}
-
-.bg-reg {
-    background-color: $bg-color-reg;
-}
-
-.bg-alt {
-    background-color: $bg-color-alt;
-}
-
-.bg-alt2 {
-    background-color: $bg-color-alt2;
+    font-weight: 400;
+    line-height: 13px;
 }
 
 .pic-row {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
+
+.pic-n-cap {
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+}
+
+.pic-3up {
+    width: $pic-3up-width;
+
+    img {
+        width: 100%;
+        height: $pic-3up-img-height;
+        object-fit: cover;
+    }
+}
+
+// #breakfast-pic {
+//     background-image: url("/images/breakfast.jpg");
+// }
+
+// #lunch-pic {
+//     background-image: url("/images/lunch.jpg");
+// }
+
+// #dinner-pic {
+//     background-image: url("/images/dinner.jpg");
+// }
 
 .cap {
     font-size: $cap-font-size;
