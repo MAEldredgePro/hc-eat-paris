@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap");
 body {
   background-color: royalblue;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Kanit, sans-serif;
+  font-weight: 700;
 }
 
 a {
@@ -22,11 +24,11 @@ a:hover {
 
 .navbar {
   background-color: #f1a536;
-  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5vw;
+  padding-inline: 7vw;
+  padding-block: 0.455vw;
 }
 
 .logo {
@@ -39,31 +41,33 @@ a:hover {
   display: flex;
   align-items: center;
 }
-.logo-name img {
-  height: 50px;
-  margin: 0px -3px 5px -13px;
-}
 .logo-name .logo-name-text {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 4vw;
+}
+.logo-name .logo-name-icon img {
+  width: 3vw;
+  margin-left: -0.85vw;
+  margin-right: -0.124vw;
+  margin-bottom: -0.3vw;
 }
 
 .logo-tagline {
-  font-weight: bold;
-  margin-top: -6px;
+  font-weight: 400;
+  font-size: 1.5vw;
+  margin-top: -1vw;
 }
 
 .nav-links {
   display: flex;
-  width: 40%;
+  width: 48%;
   justify-content: space-between;
+  font-size: 1.6vw;
   font-weight: normal;
 }
 
 .splash {
-  background-image: url("/images/full-table.jpg");
   background-size: cover;
-  height: 35vw;
+  height: 36.6vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,6 +76,7 @@ a:hover {
 
 #splash-stwor {
   background-image: url("/images/stwor.jpg");
+  background-position-y: 4.2%;
 }
 
 #splash-hotw {
@@ -81,14 +86,15 @@ a:hover {
 
 .splash-text {
   background-color: white;
-  font-size: 2vw;
+  font-size: 2.8vw;
   font-weight: bold;
-  padding: 1vw 1.4vw;
-  margin: 3vw;
+  padding-inline: 1.4vw;
+  padding-block: 0.1vw;
+  margin: 5vw;
 }
 
 .content-slice {
-  padding: 3vw 5vw;
+  padding: 4.2vw 7vw;
 }
 
 .content-slice-heading {
@@ -96,12 +102,12 @@ a:hover {
 }
 
 .content-slice-text {
-  margin-top: 1.15vw;
+  margin-top: 1.61vw;
   font-size: 1.85vw;
 }
 
 .bg-reg {
-  background-color: #fff;
+  background-color: white;
 }
 
 .bg-alt {
@@ -140,7 +146,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5vw;
+  padding-top: 7vw;
 }
 
 .rh-row {
@@ -152,13 +158,13 @@ a:hover {
 }
 
 .recipe-pitch {
-  margin-top: 2.5vw;
-  padding: 2.5vw 10vw;
+  margin-top: 3.5vw;
+  padding: 3.5vw 14vw;
 }
 
 .recipe-body {
   display: flex;
-  margin-block: 5vw;
+  margin-block: 7vw;
 }
 
 .rb-col {

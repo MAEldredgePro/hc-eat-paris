@@ -1,9 +1,11 @@
 @use "vars" as *;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap');
 
 body {
     background-color: royalblue;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Kanit, sans-serif;
+    font-weight: 700;
 }
 
 a {
@@ -23,12 +25,12 @@ a:hover {
 }
 
 .navbar {
-    background-color: $navbar-bgcolor;
-    height: 90px;
+    background-color: $bg-color-navbar;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 $default-clearance;
+    padding-inline: $default-clearance;
+    padding-block: 0.065 * $default-clearance;
 }
 
 .logo {
@@ -41,33 +43,37 @@ a:hover {
     display: flex;
     align-items: center;
 
-    img {
-        height: 50px;
-        margin: 0px -3px 5px -13px;
+    .logo-name-text {
+        font-size: $logo-name-text-font-size;
     }
 
-    .logo-name-text {
-        font-size: 50px;
-        font-weight: bold;
+    .logo-name-icon {
+        img {
+            width: $logo-name-icon-img-width;
+            margin-left: $logo-name-icon-img-margin-left;
+            margin-right: $logo-name-icon-img-margin-right;
+            margin-bottom: $logo-name-icon-img-margin-bottom;
+        }
     }
 }
 
 .logo-tagline {
-    font-weight: bold;
-    margin-top: -6px;
+    font-weight: $logo-tagline-font-weight;
+    font-size: $logo-tagline-font-size;
+    margin-top: $logo-tagline-margin-top;
 }
 
 .nav-links {
     display: flex;
-    width: 40%;
+    width: 48%;
     justify-content: space-between;
+    font-size: $nav-links-font-size;
     font-weight: normal;
 }
 
 .splash {
-    background-image: url("/images/full-table.jpg");
     background-size: cover;
-    height: 35vw;
+    height: $splash-height;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,6 +82,7 @@ a:hover {
 
 #splash-stwor {
     background-image: url("/images/stwor.jpg");
+    background-position-y: 4.2%;
 }
 
 #splash-hotw {
@@ -84,11 +91,12 @@ a:hover {
 }
 
 .splash-text {
-    background-color: white;
-    font-size: 2vw;
+    background-color: $bg-color-reg;
+    font-size: $splash-text-font-size;
     font-weight: bold;
-    padding: 1vw 1.4vw;
-    margin: 3vw;
+    padding-inline: $splash-text-padding-inline;
+    padding-block: $splash-text-padding-block;
+    margin: $splash-text-margin;
 }
 
 .content-slice {
@@ -105,15 +113,15 @@ a:hover {
 }
 
 .bg-reg {
-    background-color: $bg-reg-color;
+    background-color: $bg-color-reg;
 }
 
 .bg-alt {
-    background-color: $bg-alt-color;
+    background-color: $bg-color-alt;
 }
 
 .bg-alt2 {
-    background-color: $bg-alt2-color;
+    background-color: $bg-color-alt2;
 }
 
 .pic-row {

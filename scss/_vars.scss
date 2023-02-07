@@ -1,12 +1,44 @@
-$navbar-bgcolor: #f1a536;
-$bg-reg-color: #fff;
-$bg-alt-color: #dadfea;
-$bg-alt2-color: #eef0f4;
-$star-color: #a63223;
-$save-recipe-btn-bg-color: #a63223;
-$save-recipe-btn-fg-color: #fff;
+////////////
+// Colors //
+////////////
+$med-orange: #f1a536;
+$rust: #a63223;
+$grey: #dadfea;
+$light-grey: #eef0f4;
 
-$default-clearance: 5vw;
+$bg-color-navbar: $med-orange;
+$bg-color-reg: white;
+$bg-color-alt: $grey;
+$bg-color-alt2: $light-grey;
+$bg-color-btn: $rust;
+$fg-color-btn: white;
+$star-color: $rust;
+
+//////////////////
+// Measurements //
+//////////////////
+$scale-basis: 100vw;
+
+$default-clearance: 0.07 * $scale-basis;
+
+// nav bar //
+$logo-name-text-font-size: 0.04 * $scale-basis;
+$logo-name-icon-img-width: 0.03 * $scale-basis;
+$logo-name-icon-img-margin-left: -0.0085 * $scale-basis;
+$logo-name-icon-img-margin-right: -0.00124 * $scale-basis;
+$logo-name-icon-img-margin-bottom: -0.003 * $scale-basis;
+$logo-tagline-font-weight: 400;
+$logo-tagline-font-size: 0.015 * $scale-basis;
+$logo-tagline-margin-top: -0.01 * $scale-basis;
+$nav-links-font-size: 0.016 * $scale-basis;
+
+// splash //
+$splash-height: 0.366 * $scale-basis;
+$splash-text-font-size: .028 * $scale-basis;
+$splash-text-padding-inline: 0.014 * $scale-basis;
+$splash-text-padding-block: 0.001 * $scale-basis;
+$splash-text-margin: 0.05 * $scale-basis;
+
 $cap-font-size: 1.5vw;
 $cap-font-weight: bold;
 $content-slice-text-font-size: 1.85vw;
