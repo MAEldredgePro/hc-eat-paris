@@ -127,22 +127,36 @@ a:hover {
 }
 
 .pic-n-cap {
+  background-color: white;
   text-align: center;
 }
 
-.pic-3up {
-  width: 26vw;
-}
-.pic-3up img {
+.pic img {
   width: 100%;
-  height: 20vw;
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
+}
+
+.three-up {
+  width: 26vw;
+}
+.three-up img {
+  height: 18.5vw;
+}
+
+.four-up {
+  width: 18.5vw;
+}
+.four-up img {
+  height: 14vw;
 }
 
 .cap {
-  font-size: 1.65vw;
+  background-color: yellow;
+  font-size: 1.6vw;
   font-weight: normal;
+  padding: 0.8vw;
 }
 
 .recipe-spec {

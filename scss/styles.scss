@@ -133,36 +133,39 @@ a:hover {
 }
 
 .pic-n-cap {
-    // display: flex;
-    // flex-direction: column;
+    background-color: $bg-color-reg;
     text-align: center;
 }
 
-.pic-3up {
-    width: $pic-3up-width;
-
+.pic {
     img {
         width: 100%;
-        height: $pic-3up-img-height;
         object-fit: cover;
+        display: block;
     }
 }
 
-// #breakfast-pic {
-//     background-image: url("../images/breakfast.jpg");
-// }
+.three-up {
+    width: $three-up-width;
 
-// #lunch-pic {
-//     background-image: url("../images/lunch.jpg");
-// }
+    img {
+        height: $three-up-img-height;
+    }
+}
 
-// #dinner-pic {
-//     background-image: url("../images/dinner.jpg");
-// }
+.four-up {
+    width: $four-up-width;
+
+    img {
+        height: $four-up-img-height;
+    }
+}
 
 .cap {
+    background-color: yellow;
     font-size: $cap-font-size;
     font-weight: $cap-font-weight;
+    padding: $cap-padding;
 }
 
 .recipe-spec {

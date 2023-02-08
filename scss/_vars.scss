@@ -39,15 +39,18 @@ $splash-text-padding-inline: 0.014 * $scale-basis;
 $splash-text-padding-block: 0.001 * $scale-basis;
 $splash-text-margin: 0.05 * $scale-basis;
 
-$pic-3up-width: 0.26 * $scale-basis;
-$pic-3up-img-height: 0.2 * $scale-basis;
+$three-up-width: 0.26 * $scale-basis;
+$three-up-img-height: 0.185 * $scale-basis;
+$four-up-width: 0.185 * $scale-basis;
+$four-up-img-height: 0.14 * $scale-basis;
 
 $content-slice-heading-font-size: 0.03 * $scale-basis;
 $content-slice-text-font-size: 0.02 * $scale-basis;
 $cst-margin-top: calc(0.235 * $default-clearance);
 
-$cap-font-size: 0.0165 * $scale-basis;
+$cap-font-size: 0.016 * $scale-basis;
 $cap-font-weight: normal;
+$cap-padding: 0.008 * $scale-basis;
 
 $recipe-pitch-margin-top: calc(0.5 * $default-clearance);
 $recipe-pitch-padding: calc(0.5 * $default-clearance) calc(2 * $default-clearance);
