@@ -30,7 +30,9 @@ $logo-name-icon-img-margin-bottom: -0.003 * $scale-basis;
 $logo-tagline-font-weight: 400;
 $logo-tagline-font-size: 0.015 * $scale-basis;
 $logo-tagline-margin-top: -0.01 * $scale-basis;
+$navbar-min-height: 0.075 * $scale-basis;
 $nav-links-font-size: 0.016 * $scale-basis;
+$copyright-font-size: 0.016 * $scale-basis;
 
 // splash //
 $splash-height: 0.366 * $scale-basis;
@@ -46,11 +48,16 @@ $four-up-img-height: 0.14 * $scale-basis;
 
 $content-slice-heading-font-size: 0.03 * $scale-basis;
 $content-slice-text-font-size: 0.02 * $scale-basis;
+$content-slice-text-line-height: 0.023 * $scale-basis;
 $cst-margin-top: calc(0.235 * $default-clearance);
 
 $cap-font-size: 0.016 * $scale-basis;
 $cap-font-weight: normal;
 $cap-padding: 0.008 * $scale-basis;
+
+$pic-border-width: 0.0063 * $scale-basis;
+$pic-border-color: #dadfea;
+$pic-border: $pic-border-width solid $pic-border-color;
 
 $recipe-pitch-margin-top: calc(0.5 * $default-clearance);
 $recipe-pitch-padding: calc(0.5 * $default-clearance) calc(2 * $default-clearance);

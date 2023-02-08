@@ -43,6 +43,7 @@ a:hover {
     align-items: center;
     padding-inline: $default-clearance;
     padding-block: 0.065 * $default-clearance;
+    min-height: $navbar-min-height;
 }
 
 .logo {
@@ -80,6 +81,11 @@ a:hover {
     width: 48%;
     justify-content: space-between;
     font-size: $nav-links-font-size;
+    font-weight: normal;
+}
+
+.copyright {
+    font-size: $copyright-font-size;
     font-weight: normal;
 }
 
@@ -122,8 +128,8 @@ a:hover {
 .content-slice-text {
     margin-top: $cst-margin-top;
     font-size: $content-slice-text-font-size;
-    font-weight: 400;
-    line-height: 13px;
+    line-height: $content-slice-text-line-height;
+    font-weight: normal;
 }
 
 .pic-row {
@@ -162,10 +168,17 @@ a:hover {
 }
 
 .cap {
-    background-color: yellow;
+    // background-color: yellow;
     font-size: $cap-font-size;
     font-weight: $cap-font-weight;
     padding: $cap-padding;
+}
+
+.pic-border {
+    img {
+        box-sizing: border-box;
+        border: $pic-border;
+    }
 }
 
 .recipe-spec {

@@ -41,6 +41,7 @@ a:hover {
   align-items: center;
   padding-inline: 7vw;
   padding-block: 0.455vw;
+  min-height: 7.5vw;
 }
 
 .logo {
@@ -73,6 +74,11 @@ a:hover {
   display: flex;
   width: 48%;
   justify-content: space-between;
+  font-size: 1.6vw;
+  font-weight: normal;
+}
+
+.copyright {
   font-size: 1.6vw;
   font-weight: normal;
 }
@@ -116,8 +122,8 @@ a:hover {
 .content-slice-text {
   margin-top: 1.645vw;
   font-size: 2vw;
-  font-weight: 400;
-  line-height: 13px;
+  line-height: 2.3vw;
+  font-weight: normal;
 }
 
 .pic-row {
@@ -153,10 +159,14 @@ a:hover {
 }
 
 .cap {
-  background-color: yellow;
   font-size: 1.6vw;
   font-weight: normal;
   padding: 0.8vw;
+}
+
+.pic-border img {
+  box-sizing: border-box;
+  border: 0.63vw solid #dadfea;
 }
 
 .recipe-spec {
