@@ -87,12 +87,12 @@ a:hover {
 }
 
 #splash-stwor {
-  background-image: url("/images/stwor.jpg");
+  background-image: url("../images/stwor.jpg");
   background-position-y: 4.2%;
 }
 
 #splash-hotw {
-  background-image: url("/images/hotw.jpg");
+  background-image: url("../images/hotw.jpg");
   background-position-y: 40%;
 }
 
