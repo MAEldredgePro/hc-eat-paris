@@ -111,11 +111,15 @@ a:hover {
   padding-inline: 7vw;
 }
 
+.rs-header {
+  font-size: 2.5vw;
+}
+
 .rs-content {
   width: 75%;
   display: flex;
   justify-content: space-between;
-  font-size: 0.7rem;
+  font-size: 1.7vw;
 }
 
 .rs-row {
@@ -144,22 +148,22 @@ a:hover {
 }
 
 .recipe-title {
-  font-size: 1.5rem;
+  font-size: 3.8vw;
 }
 
 #review {
-  margin-top: -0.3rem;
-  margin-bottom: 0.3rem;
+  margin-top: -0.9vw;
+  margin-bottom: 0.4vw;
 }
 
 .stars {
   color: #a63223;
-  font-size: 0.8rem;
+  font-size: 1.8vw;
 }
 
 .reviews {
   margin-inline: 0.5rem;
-  font-size: 0.6rem;
+  font-size: 1.4vw;
   font-weight: normal;
 }
 
@@ -167,22 +171,22 @@ a:hover {
   background-color: #a63223;
   color: white;
   font-weight: normal;
-  font-size: 0.5rem;
-  padding: 0.25rem;
-  padding-inline: 1rem;
-  border-radius: 1rem;
+  font-size: 1.4vw;
+  padding: 0.4vw;
+  padding-inline: 2vw;
+  border-radius: 2vw;
 }
 
 .print-icon {
-  margin-left: 0.5rem;
-  border: 0.05em solid #a63223;
-  border-radius: 1em;
-  padding: 0.08rem;
-  padding-right: 0.11rem;
+  margin-left: 1.5vw;
+  border: 0.15vw solid #a63223;
+  border-radius: 10vw;
+  padding: 0.3vw;
+  padding-right: 0.32vw;
 }
 .print-icon img {
   display: block;
-  height: 1rem;
+  height: 2vw;
 }
 
 .recipe-pitch {
@@ -190,18 +194,18 @@ a:hover {
   margin-block: 3.5vw;
   padding-inline: 9.1vw;
   padding-block: 2.45vw;
-  font-size: 0.85rem;
-  line-height: 0.85rem;
+  font-size: 2.1vw;
+  line-height: 2.2vw;
   text-align: center;
 }
 
 .recipe-body {
   display: flex;
   margin-inline: 7vw;
-  padding-bottom: 4.5rem;
+  padding-bottom: 10vw;
   font-weight: normal;
-  font-size: 0.6rem;
-  line-height: 0.65rem;
+  font-size: 1.5vw;
+  line-height: 2vw;
 }
 
 .rb-col {
@@ -209,38 +213,38 @@ a:hover {
 }
 
 .rb-section-title {
-  font-size: 1rem;
+  font-size: 2.5vw;
   font-weight: bold;
 }
 
 .rb-section-minor-title {
   font-weight: bold;
-  font-size: 0.6rem;
-  margin-left: 0.5rem;
-  margin-top: 0.7rem;
-  margin-bottom: -0.4rem;
+  font-size: 1.63vw;
+  margin-left: 1.4vw;
+  margin-top: 2.1vw;
+  margin-bottom: -1.5vw;
 }
 
 .rb-section-list ul {
-  -webkit-padding-start: 0.8rem;
-          padding-inline-start: 0.8rem;
+  -webkit-padding-start: 2.1vw;
+          padding-inline-start: 2.1vw;
 }
 .rb-section-list ol {
-  -webkit-padding-start: 0.45rem;
-          padding-inline-start: 0.45rem;
+  -webkit-padding-start: 1vw;
+          padding-inline-start: 1vw;
 }
 .rb-section-list ul span {
-  margin-left: -0.3rem;
+  margin-left: -0.7vw;
 }
 .rb-section-list ol li {
-  padding-left: 0.4rem;
+  padding-left: 1vw;
 }
 
 .directions li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 2.1vw;
 }
 
 #grill-timing {
   font-weight: bold;
-  margin-left: 0.42rem;
+  margin-left: 1vw;
 }/*# sourceMappingURL=rotw.css.map */
