@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;800&display=swap");
+body {
+  background-color: royalblue;
+  margin: 0;
+  font-family: Kanit, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.bg-reg {
+  background-color: white;
+}
+
+.bg-alt {
+  background-color: #dadfea;
+}
+
+.bg-alt2 {
+  background-color: #eef0f4;
+}
+
+.navbar {
+  background-color: #f1a536;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 7vw;
+  padding-block: 0.455vw;
+  min-height: 7.5vw;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+.logo-name .logo-name-text {
+  font-size: 4vw;
+}
+.logo-name .logo-name-icon img {
+  width: 3vw;
+  margin-left: -0.85vw;
+  margin-right: -0.124vw;
+  margin-bottom: -0.3vw;
+}
+
+.logo-tagline {
+  font-weight: 400;
+  font-size: 1.5vw;
+  margin-top: -1vw;
+}
+
+.nav-links {
+  display: flex;
+  width: 48%;
+  justify-content: space-between;
+  font-size: 1.6vw;
+  font-weight: normal;
+}
+
+.copyright {
+  font-size: 1.6vw;
+  font-weight: normal;
+}
+
+.splash {
+  background-size: cover;
+  height: 36.6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.splash-text {
+  background-color: white;
+  font-size: 2.8vw;
+  font-weight: bold;
+  padding-inline: 1.4vw;
+  padding-block: 0.1vw;
+  margin: 5vw;
+}
+
+#splash-rotw {
+  background-image: url("../images/hotw.jpg");
+  background-position-y: 40%;
+}
+
+.recipe-spec {
+  padding-block: 1.9vw;
+  padding-inline: 7vw;
+}
+
+.rs-content {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+}
+
+.rs-row {
+  display: flex;
+}
+
+.rs-label {
+  font-weight: bold;
+}
+
+.rs-value {
+  font-weight: normal;
+  padding-left: 0.2rem;
+}
+
+.recipe-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4.9vw;
+}
+
+.rh-row {
+  display: flex;
+  align-items: center;
+}
+
+.recipe-title {
+  font-size: 1.5rem;
+}
+
+#review {
+  margin-top: -0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.stars {
+  color: #a63223;
+  font-size: 0.8rem;
+}
+
+.reviews {
+  margin-inline: 0.5rem;
+  font-size: 0.6rem;
+  font-weight: normal;
+}
+
+.save-recipe {
+  background-color: #a63223;
+  color: white;
+  font-weight: normal;
+  font-size: 0.5rem;
+  padding: 0.25rem;
+  padding-inline: 1rem;
+  border-radius: 1rem;
+}
+
+.print-icon {
+  margin-left: 0.5rem;
+  border: 0.05em solid #a63223;
+  border-radius: 1em;
+  padding: 0.08rem;
+  padding-right: 0.11rem;
+}
+.print-icon img {
+  display: block;
+  height: 1rem;
+}
+
+.recipe-pitch {
+  margin-inline: 7vw;
+  margin-block: 3.5vw;
+  padding-inline: 9.1vw;
+  padding-block: 2.45vw;
+  font-size: 0.85rem;
+  line-height: 0.85rem;
+  text-align: center;
+}
+
+.recipe-body {
+  display: flex;
+  margin-inline: 7vw;
+  padding-bottom: 4.5rem;
+  font-weight: normal;
+  font-size: 0.6rem;
+  line-height: 0.65rem;
+}
+
+.rb-col {
+  flex-basis: 50%;
+}
+
+.rb-section-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.rb-section-minor-title {
+  font-weight: bold;
+  font-size: 0.6rem;
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+  margin-bottom: -0.4rem;
+}
+
+.rb-section-list ul {
+  -webkit-padding-start: 0.8rem;
+          padding-inline-start: 0.8rem;
+}
+.rb-section-list ol {
+  -webkit-padding-start: 0.45rem;
+          padding-inline-start: 0.45rem;
+}
+.rb-section-list ul span {
+  margin-left: -0.3rem;
+}
+.rb-section-list ol li {
+  padding-left: 0.4rem;
+}
+
+.directions li {
+  margin-bottom: 0.5rem;
+}
+
+#grill-timing {
+  font-weight: bold;
+  margin-left: 0.42rem;
+}/*# sourceMappingURL=rotw.css.map */

@@ -1,0 +1,157 @@
+@use "vars" as *;
+@use "styles" as *;
+
+#splash-rotw {
+    background-image: url("../images/hotw.jpg");
+    background-position-y: 40%;
+}
+
+.recipe-spec {
+    padding-block: 1.9vw;
+    padding-inline: $default-clearance;
+}
+
+.rs-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.rs-row {
+    display: flex;
+}
+
+.rs-label {
+    font-weight: bold;
+}
+
+.rs-value {
+    font-weight: normal;
+    padding-left: 0.2rem;
+}
+
+.recipe-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.7 * $default-clearance;
+}
+
+.rh-row {
+    display: flex;
+    align-items: center;
+}
+
+.recipe-title {
+    font-size: 1.5rem;
+}
+
+#review {
+    margin-top: -0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.stars {
+    color: $star-color;
+    font-size: 0.8rem;
+}
+
+.reviews {
+    margin-inline: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: normal;
+}
+
+.save-recipe {
+    background-color: $rust;
+    color: $fg-color-btn;
+    font-weight: normal;
+    font-size: 0.5rem;
+    padding: 0.25rem;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+}
+
+.print-icon {
+    margin-left: 0.5rem;
+    border: .05em solid $rust;
+    border-radius: 1em;
+    padding: .08rem;
+    padding-right: .11rem;
+
+    img {
+        display: block;
+        height: 1rem;
+    }
+}
+
+.recipe-pitch {
+    margin-inline: $default-clearance;
+    margin-block: $recipe-pitch-margin-block;
+    padding-inline: $recipe-pitch-padding-inline;
+    padding-block: $recipe-pitch-padding-block;
+    font-size: 0.85rem;
+    line-height: 0.85rem;
+    text-align: center;
+}
+
+.recipe-body {
+    display: flex;
+    margin-inline: $default-clearance;
+    padding-bottom: 4.5rem;
+
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.65rem;
+}
+
+.rb-col {
+    flex-basis: 50%;
+}
+
+.rb-section-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.rb-section-minor-title {
+    font-weight: bold;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: -0.4rem;
+}
+
+.rb-section-list {
+    ul {
+        padding-inline-start: 0.8rem;
+    }
+
+    ol {
+        padding-inline-start: 0.45rem;
+    }
+
+    ul {
+        span {
+            margin-left: -0.3rem;
+        }
+    }
+
+    ol {
+        li {
+            padding-left: 0.4rem;
+        }
+    }
+}
+
+.directions {
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+#grill-timing {
+    font-weight: bold;
+    margin-left: .42rem;
+}

@@ -1,0 +1,71 @@
+@use "vars" as *;
+@use "styles" as *;
+
+#splash-stwor {
+    background-image: url("../images/stwor.jpg");
+    background-position-y: 4.2%;
+}
+
+.content-slice {
+    padding: calc(0.6 * $default-clearance) $default-clearance;
+}
+
+.content-slice-heading {
+    font-size: $content-slice-heading-font-size;
+}
+
+.content-slice-text {
+    margin-top: $cst-margin-top;
+    font-size: $content-slice-text-font-size;
+    line-height: $content-slice-text-line-height;
+    font-weight: normal;
+}
+
+.pic-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.pic-n-cap {
+    background-color: $bg-color-reg;
+    text-align: center;
+}
+
+.pic {
+    img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+.three-up {
+    width: $three-up-width;
+
+    img {
+        height: $three-up-img-height;
+    }
+}
+
+.four-up {
+    width: $four-up-width;
+
+    img {
+        height: $four-up-img-height;
+    }
+}
+
+.cap {
+    // background-color: yellow;
+    font-size: $cap-font-size;
+    font-weight: $cap-font-weight;
+    padding: $cap-padding;
+}
+
+.pic-border {
+    img {
+        box-sizing: border-box;
+        border: $pic-border;
+    }
+}
